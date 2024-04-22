@@ -1,0 +1,110 @@
+.navbar{
+    background-color: #6381BC;
+    padding: 15px 0;
+}
+.root_1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.root_logo{
+    display: flex;
+    align-items: center;
+}
+.nic{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.root_nav{
+    display: flex;
+    align-items: center;
+    color: #000;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+.logo_title{
+    font-size: 25px;
+}
+.bg_color{
+    padding-left: 10px;
+}
+.logout{
+    padding-left: 10px;
+}
+.nav_icons{
+    display: flex;
+    align-items: center;
+    padding-top: 35px;
+    padding-left: 20px;
+}
+.fa{
+    margin-left: 20px;
+    margin-bottom: -2px;
+}
+.icon{
+    margin-left: 20px;
+}
+.root_3{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    padding-top: 40px;
+}
+.links .home{
+    padding-right: 15px;
+}
+.links .badges{
+    padding-left: 15px;
+}
+
+  @media (max-width: 414px) {
+    .container {
+      margin: 0 10px; /* Adjust margins for smaller screens */
+      width: auto; /* Let content flow naturally on smaller screens */
+    }
+    .nic{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .navbar {
+      padding: 10px 0; /* Reduce padding for smaller screens */
+    }
+    .root_1 {
+      padding-top: 10px; /* Adjust padding for smaller screens */
+    }
+    .logo_title {
+      font-size: 20px; /* Reduce font size for smaller screens */
+    }
+    .nav_icons {
+      padding-top: 20px; /* Adjust padding for smaller screens */
+      padding-left: 5px; /* Adjust padding for smaller screens */
+      justify-content: center;
+    }
+    .fa{
+        margin-left: 10px;
+        margin-bottom: 0;
+    }
+    .fa {
+      padding-left: 10px; /* Adjust padding for smaller screens */
+    }
+    .root_3 {
+      font-size: 18px; /* Reduce font size for smaller screens */
+      padding-top: 30px; /* Adjust padding for smaller screens */
+    }
+    .links .home,
+    .links .badges {
+      padding: 0 10px; /* Adjust padding for smaller screens */
+    }
+  }
+  
